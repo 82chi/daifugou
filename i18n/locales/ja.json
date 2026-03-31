@@ -1,0 +1,47 @@
+{
+  "top": {
+    "namePlaceholder": "ニックネームを入力",
+    "createRoom": "ルームを作る",
+    "roomCodePlaceholder": "ルームコード",
+    "join": "参加"
+  },
+  "room": {
+    "title": "待機室",
+    "code": "ルームコード",
+    "waiting": "プレイヤーを待っています...",
+    "startGame": "ゲーム開始",
+    "addCpu": "CPU追加",
+    "rules": "ルール設定",
+    "info": "ルール確認"
+  },
+  "game": {
+    "loading": "ゲームを読み込んでいます...",
+    "play": "出す",
+    "pass": "パス",
+    "revolution": "革命！",
+    "elevenBack": "イレブンバック！",
+    "eightCut": "8切り！",
+    "sandstorm": "砂嵐！",
+    "nineFlush": "99車！",
+    "sixFlush": "ろくろ首！",
+    "sevenRevolution": "ななさん革命！"
+  },
+  "result": {
+    "title": "結果",
+    "loading": "結果を読み込んでいます...",
+    "rematch": "もう一度同じメンバーで遊ぶ",
+    "backToTop": "トップへ戻る"
+  },
+  "title": {
+    "daifugo": "大富豪",
+    "fugo": "富豪",
+    "heimin": "平民",
+    "hinmin": "貧民",
+    "daihinmin": "大貧民"
+  },
+  "cpu": {
+    "weak": "弱",
+    "normal": "普通",
+    "strong": "強"
+  }
+}
