@@ -1,0 +1,47 @@
+{
+  "top": {
+    "namePlaceholder": "Enter nickname",
+    "createRoom": "Create Room",
+    "roomCodePlaceholder": "Room Code",
+    "join": "Join"
+  },
+  "room": {
+    "title": "Waiting Room",
+    "code": "Room Code",
+    "waiting": "Waiting for players...",
+    "startGame": "Start Game",
+    "addCpu": "Add CPU",
+    "rules": "Rule Settings",
+    "info": "Rule Info"
+  },
+  "game": {
+    "loading": "Loading game...",
+    "play": "Play",
+    "pass": "Pass",
+    "revolution": "Revolution!",
+    "elevenBack": "Eleven Back!",
+    "eightCut": "8 Cut!",
+    "sandstorm": "Sandstorm!",
+    "nineFlush": "99 Flush!",
+    "sixFlush": "Six Flush!",
+    "sevenRevolution": "Seven Revolution!"
+  },
+  "result": {
+    "title": "Results",
+    "loading": "Loading results...",
+    "rematch": "Play Again with Same Players",
+    "backToTop": "Back to Top"
+  },
+  "title": {
+    "daifugo": "Grand Rich",
+    "fugo": "Rich",
+    "heimin": "Commoner",
+    "hinmin": "Poor",
+    "daihinmin": "Grand Poor"
+  },
+  "cpu": {
+    "weak": "Weak",
+    "normal": "Normal",
+    "strong": "Strong"
+  }
+}
