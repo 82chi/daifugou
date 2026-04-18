@@ -441,9 +441,9 @@ export default class DaifugouServer implements Party.Server {
     const exchanges: Exchange[] = []
     const daifugo = players.find(p => p.titleRank === 'daifugo')
     const fugo = players.find(p => p.titleRank === 'fugo')
-    const dhinmin = players.find(p => p.titleRank === 'daihinmin')
+    const daihinmin = players.find(p => p.titleRank === 'daihinmin')
     const hinmin = players.find(p => p.titleRank === 'hinmin')
-    if (daifugo && dhinmin) exchanges.push({ fromPlayerId: dhinmin.id, toPlayerId: daifugo.id })
+    if (daifugo && daihinmin) exchanges.push({ fromPlayerId: daihinmin.id, toPlayerId: daifugo.id })
     if (fugo && hinmin) exchanges.push({ fromPlayerId: hinmin.id, toPlayerId: fugo.id })
 
     this.state.exchangePhase = { pendingExchanges: exchanges, completedExchanges: [] }
@@ -453,7 +453,7 @@ export default class DaifugouServer implements Party.Server {
     for (const ex of exchanges) {
       const from = players.find(p => p.id === ex.fromPlayerId)
       if (from?.isCpu) {
-        const count = ex.fromPlayerId === dhinmin?.id ? 2 : 1
+        const count = ex.fromPlayerId === daihinmin?.id ? 2 : 1
         const worstCards = [...from.hand]
           .sort((a, b) => getComboRank([a]) - getComboRank([b]))
           .slice(0, count)
@@ -855,7 +855,7 @@ export default class DaifugouServer implements Party.Server {
     if (!player) return
 
     const msg: ChatMessage = {
-      id: `${Date.now()}-${Math.random()}`,
+      id: this.generateMessageId(),
       playerId: pid ?? conn.id,
       playerName: player.name,
       type: 'chat',
@@ -873,7 +873,7 @@ export default class DaifugouServer implements Party.Server {
     if (!player || player.status === 'spectating') return
 
     const msg: ChatMessage = {
-      id: `${Date.now()}-${Math.random()}`,
+      id: this.generateMessageId(),
       playerId: pid ?? conn.id,
       playerName: player.name,
       type: 'stamp',
@@ -1053,6 +1053,10 @@ export default class DaifugouServer implements Party.Server {
   private autoPassForDisconnected(pid: string) {
     if (!this.state || this.state.currentTurnPlayerId !== pid) return
     this.processPass(pid)
+  }
+
+  private generateMessageId(): string {
+    return `${Date.now()}-${Math.random().toString(36).slice(2)}`
   }
 
   // ============================================================
