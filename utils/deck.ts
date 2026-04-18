@@ -1,4 +1,4 @@
-import type { Card, Suit, Rank } from '~/types'
+import type { Card, Suit, Rank } from '../types'
 
 const SUITS: Suit[] = ['spades', 'hearts', 'diamonds', 'clubs']
 const RANKS: Rank[] = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]

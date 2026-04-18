@@ -12,25 +12,45 @@
     "startGame": "ゲーム開始",
     "addCpu": "CPU追加",
     "rules": "ルール設定",
-    "info": "ルール確認"
+    "info": "ルール確認",
+    "connecting": "サーバーに接続中...",
+    "waitingHost": "ホストがゲームを開始するのを待っています...",
+    "waitingForReady": "準備完了を待っています...",
+    "noRules": "特殊ルールなし（基本ルールのみ）"
   },
   "game": {
     "loading": "ゲームを読み込んでいます...",
     "play": "出す",
     "pass": "パス",
+    "give": "渡す",
+    "discard": "捨てる",
     "revolution": "革命！",
     "elevenBack": "イレブンバック！",
     "eightCut": "8切り！",
     "sandstorm": "砂嵐！",
     "nineFlush": "99車！",
     "sixFlush": "ろくろ首！",
-    "sevenRevolution": "ななさん革命！"
+    "sevenRevolution": "ななさん革命！",
+    "fieldEmpty": "場札なし（最初のプレイ）",
+    "suitLock": "マークしばり",
+    "rankLock": "数字しばり",
+    "yourTurn": "あなたの番です！",
+    "waitingTurn": "{name}の番です...",
+    "exchangePhase": "カード交換",
+    "exchangeWaiting": "カード交換の結果を待っています...",
+    "exchangeGiveInstruction": "{n}枚選んで渡してください",
+    "exchangeReturnInstruction": "好きな{n}枚を選んで返してください",
+    "giveCards": "{n}枚渡す",
+    "sevenPassInstruction": "次のプレイヤーに{n}枚渡してください",
+    "tenDiscardInstruction": "{n}枚捨ててください",
+    "queenBomberInstruction": "捨てさせる数字を宣言してください"
   },
   "result": {
     "title": "結果",
     "loading": "結果を読み込んでいます...",
     "rematch": "もう一度同じメンバーで遊ぶ",
-    "backToTop": "トップへ戻る"
+    "backToTop": "トップへ戻る",
+    "waitingHost": "ホストがリマッチを開始するのを待っています..."
   },
   "title": {
     "daifugo": "大富豪",
@@ -43,5 +63,34 @@
     "weak": "弱",
     "normal": "普通",
     "strong": "強"
+  },
+  "chat": {
+    "title": "チャット",
+    "placeholder": "メッセージを入力...",
+    "send": "送信"
+  },
+  "rules": {
+    "jokerCount": "ジョーカー枚数",
+    "revolution": "革命",
+    "eightCut": "8切り",
+    "spadeThreeReturn": "スペ3返し",
+    "forbiddenWin": "禁止上がり",
+    "suitLock": "マークしばり",
+    "suitLockCount": "発動枚数",
+    "rankLock": "数字しばり",
+    "elevenBack": "イレブンバック",
+    "queenBomber": "クイーンボンバー",
+    "sandstorm": "砂嵐",
+    "nineFlush": "99車",
+    "sixFlush": "ろくろ首",
+    "fourStop": "4止め",
+    "fiveSkip": "5スキップ",
+    "fiveSkipMulti": "複数枚時",
+    "fiveSkipMulti_each": "1人ずつ",
+    "fiveSkipMulti_chain": "連鎖",
+    "sevenPass": "7渡し",
+    "tenDiscard": "10捨て",
+    "nineReverse": "9リバース",
+    "sevenRevolution": "ななさん革命"
   }
 }

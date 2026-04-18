@@ -12,25 +12,45 @@
     "startGame": "Start Game",
     "addCpu": "Add CPU",
     "rules": "Rule Settings",
-    "info": "Rule Info"
+    "info": "Rule Info",
+    "connecting": "Connecting to server...",
+    "waitingHost": "Waiting for host to start the game...",
+    "waitingForReady": "Waiting for ready...",
+    "noRules": "No special rules (basic rules only)"
   },
   "game": {
     "loading": "Loading game...",
     "play": "Play",
     "pass": "Pass",
+    "give": "Give",
+    "discard": "Discard",
     "revolution": "Revolution!",
     "elevenBack": "Eleven Back!",
     "eightCut": "8 Cut!",
     "sandstorm": "Sandstorm!",
     "nineFlush": "99 Flush!",
     "sixFlush": "Six Flush!",
-    "sevenRevolution": "Seven Revolution!"
+    "sevenRevolution": "Seven Revolution!",
+    "fieldEmpty": "Empty field (first play)",
+    "suitLock": "Suit Lock",
+    "rankLock": "Rank Lock",
+    "yourTurn": "Your turn!",
+    "waitingTurn": "{name}'s turn...",
+    "exchangePhase": "Card Exchange",
+    "exchangeWaiting": "Waiting for card exchange to complete...",
+    "exchangeGiveInstruction": "Select {n} card(s) to give",
+    "exchangeReturnInstruction": "Select {n} card(s) to return",
+    "giveCards": "Give {n} card(s)",
+    "sevenPassInstruction": "Give {n} card(s) to the next player",
+    "tenDiscardInstruction": "Discard {n} card(s)",
+    "queenBomberInstruction": "Declare a rank to discard"
   },
   "result": {
     "title": "Results",
     "loading": "Loading results...",
     "rematch": "Play Again with Same Players",
-    "backToTop": "Back to Top"
+    "backToTop": "Back to Top",
+    "waitingHost": "Waiting for host to start a rematch..."
   },
   "title": {
     "daifugo": "Grand Rich",
@@ -43,5 +63,34 @@
     "weak": "Weak",
     "normal": "Normal",
     "strong": "Strong"
+  },
+  "chat": {
+    "title": "Chat",
+    "placeholder": "Type a message...",
+    "send": "Send"
+  },
+  "rules": {
+    "jokerCount": "Joker Count",
+    "revolution": "Revolution",
+    "eightCut": "8 Cut",
+    "spadeThreeReturn": "Spade 3 Return",
+    "forbiddenWin": "Forbidden Win",
+    "suitLock": "Suit Lock",
+    "suitLockCount": "Trigger Count",
+    "rankLock": "Rank Lock",
+    "elevenBack": "Eleven Back",
+    "queenBomber": "Queen Bomber",
+    "sandstorm": "Sandstorm",
+    "nineFlush": "99 Flush",
+    "sixFlush": "Six Flush",
+    "fourStop": "Four Stop",
+    "fiveSkip": "Five Skip",
+    "fiveSkipMulti": "Multi-card mode",
+    "fiveSkipMulti_each": "Each",
+    "fiveSkipMulti_chain": "Chain",
+    "sevenPass": "Seven Pass",
+    "tenDiscard": "Ten Discard",
+    "nineReverse": "Nine Reverse",
+    "sevenRevolution": "Seven Revolution"
   }
 }
