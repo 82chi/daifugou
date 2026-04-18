@@ -1,4 +1,4 @@
-import type { CpuLevel } from '~/types'
+import type { CpuLevel } from '../types'
 
 const weakMale = ['たろう', 'はなお', 'けんた', 'りょう', 'だいき']
 const weakFemale = ['はなこ', 'さくら', 'あかり', 'ゆい', 'みく']
